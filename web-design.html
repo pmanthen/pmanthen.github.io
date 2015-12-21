@@ -1,1 +1,23 @@
-This page will document web application patterns that I found useful in my experience
+<html>
+  <head>
+    <title>
+      Web application design patterns | Praveen Manthena
+    </title>
+  </head>
+  <body>
+    <h3>This page will document web application patterns that I found useful in my experience</h3>
+    <ul>
+      <li>Website should have dynamically managed placeholders to display custom messages. 
+      Example: Amazon may want to display days remaining to order for a delivery before Christamas</li>
+    </ul>
+    <ul>
+      If a website offers multiple features/services. There is a high chance that each service is provided by multiple backend systems.
+      There is a high chance that any service in this echo system can go down / will go under maintenance.
+      Hence, there should be a functionality to dynamically disable/enable services and gracefully manage user experience
+    </ul>
+    <ul>
+      Error messaging: Each error user sees in the front end should have a unique error ID.
+      When user contacts someone for help, there should be an easy way to pull everything that happened when user experienced that error.
+    </ul>
+  </body>
+</html>
